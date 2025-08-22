@@ -11,12 +11,12 @@ Q1) Do you like Dawn or Dusk?
 """
 opção = input(Q1)
 if opção == "1":
-  grifindor += 1
-  ravenclaw += 1
+  grifindor += 2
+  ravenclaw += 2
 
 elif opção == "2":
-  hufflepuff += 1
-  slytherin += 1
+  hufflepuff += 2
+  slytherin += 2
 
 else:
   print("Wrong input.")
@@ -53,16 +53,16 @@ Q3) Which kind of instrument most pleases your ear?
 """
 opção = input(Q3)
 if opção == "1":
-  hufflepuff += 4
+  hufflepuff += 2
 
 elif opção == "2":
-  slytherin += 4
+  slytherin += 2
 
 elif opção == "3":
-  ravenclaw += 4
+  ravenclaw += 2
 
 elif opção == "4":
-  grifindor += 4
+  grifindor += 2
 
 else:
   print("Wrong input.")
@@ -78,3 +78,4 @@ print("🦁 Gryffindor: ", grifindor)
 print("🦅 Ravenclaw: ", ravenclaw)
 print("🦡 Hufflepuff: ", hufflepuff)
 print("🐍 Slytherin: ", slytherin)
+
